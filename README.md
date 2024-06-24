@@ -76,7 +76,7 @@ Mocks são versões simuladas de objetos, funções ou módulos que você pode u
 
 Aqui está um exemplo de como você pode escrever um mock de uma função usando o Jest:
 
-```javascript test(‘should call the mock function with the correct arguments’, () => { const mockFunction = jest.fn(); mockFunction.mockReturnValueOnce(42); const result = mockFunction(); expect(result).toBe(42); expect(mockFunction).toHaveBeenCalled(); }); ```
+```Java Script  test(‘should call the mock function with the correct arguments’, () => { const mockFunction = jest.fn(); mockFunction.mockReturnValueOnce(42); const result = mockFunction(); expect(result).toBe(42); expect(mockFunction).toHaveBeenCalled(); }); ```
 
 Neste exemplo, estamos criando uma função mock usando jest.fn() e chamando essa função. Em seguida, usamos expect para verificar se a função mock foi realmente chamada.
 
