@@ -76,11 +76,14 @@ Mocks são versões simuladas de objetos, funções ou módulos que você pode u
 
 Aqui está um exemplo de como você pode escrever um mock de uma função usando o Jest:
 
-test('should call the mock function', () => {
+test('should call the mock function with the correct arguments', () => {
   const mockFunction = jest.fn();
-  mockFunction();
+  mockFunction.mockReturnValueOnce(42);
+  const result = mockFunction();
+  expect(result).toBe(42);
   expect(mockFunction).toHaveBeenCalled();
 });
+
 Neste exemplo, estamos criando uma função mock usando jest.fn() e chamando essa função. Em seguida, usamos expect para verificar se a função mock foi realmente chamada.
 
 Você também pode configurar a função mock para retornar um valor específico quando chamada:
@@ -92,3 +95,70 @@ test('should call the mock function with the correct arguments', () => {
   expect(result).toBe(42);
   expect(mockFunction).toHaveBeenCalled();
 });
+
+
+ 
+# Execução
+ 
+A execução de testes no Jest funciona da seguinte maneira:
+
+O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
+
+Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
+
+Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
+
+O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
+
+Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam.
+
+Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
+
+Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
+
+Referências
+Execução
+A execução de testes no Jest funciona da seguinte maneira:
+
+O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
+
+Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
+
+Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
+
+O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
+
+Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam.
+
+Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
+
+Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
+
+Referências
+https://Execução
+A execução de testes no Jest funciona da seguinte maneira:
+
+O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
+
+Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
+
+Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
+
+O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
+
+Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam.
+
+Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
+
+Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
+
+Referências
+https://jestjs.io/pt-BR/docs/getting-started
+https://jestjs.io/pt-BR/docs/expect
+https://jestjs.io/pt-BR/docs/mock-function-api
+https://jestjs.io/pt-BR/docs/snapshot-testing
+https://jestjs.io/pt-BR/docs/configuration
+https://jestjs.io/pt-BR/docs/expect
+https://jestjs.io/pt-BR/docs/mock-function-api
+https://jestjs.io/pt-BR/docs/snapshot-testing
+https://jestjs.io/pt-BR/docs/configuration
