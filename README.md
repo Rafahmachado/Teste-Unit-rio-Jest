@@ -1,4 +1,4 @@
-# Teste-Unit-rio-Jest
+# Teste-Unitário-Jest
 
 ## O que preciso saber
 Para trabalhar com testes unitários usando Jest, você precisa ter conhecimento básico em JavaScript e compreender os conceitos de testes unitários em geral. Além disso, você precisa saber:
@@ -136,21 +136,21 @@ Você pode executar todos os seus testes com um único comando, como jest, ou ex
 
 # Execução 
 
-## A execução de testes no Jest funciona da seguinte maneira:
+ A execução de testes no Jest funciona da seguinte maneira:
 
-## O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
+ O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
 
-## Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
+ Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
 
-## Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
+ Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
 
-## O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
+ O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
 
-## Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam.
+Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam
 
-## Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
+ Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
 
-## Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
+ Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
 
 # Referências
 (https://jestjs.io/pt-BR/docs/getting-started)
