@@ -119,20 +119,7 @@ Quando todos os casos de teste são concluídos, o Jest exibe o resultado da exe
  Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
 
 # Referências
-(https://jestjs.io/pt-BR/docs/getting-started)
+https://jestjs.io/pt-BR/docs/getting-started
 
-(https://jestjs.io/pt-BR/docs/expect)
+https://jestjs.io/pt-BR/docs/expect
 
-(https://jestjs.io/pt-BR/docs/mock-function-api)
-
-(https://jestjs.io/pt-BR/docs/snapshot-testing)
-
-(https://jestjs.io/pt-BR/docs/configuration)
-
-(https://jestjs.io/pt-BR/docs/expect)
-
-(https://jestjs.io/pt-BR/docs/mock-function-api)
-
-(https://jestjs.io/pt-BR/docs/snapshot-testing)
-
-(https://jestjs.io/pt-BR/docs/configuration)
