@@ -134,31 +134,31 @@ Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a 
 
 Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
 
-Referências
-https://Execução
-A execução de testes no Jest funciona da seguinte maneira:
+# Execução 
 
-O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
+## A execução de testes no Jest funciona da seguinte maneira:
 
-Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
+## O Jest procura por arquivos de teste em seu projeto, geralmente com a extensão .test.js ou .spec.js.
 
-Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
+## Uma vez encontrados, o Jest carrega os arquivos de teste e procura por funções test ou describe.
 
-O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
+## Cada função test representa um caso de teste individual e é executada individualmente pelo Jest.
 
-Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam.
+## O Jest usa a biblioteca de asserção Jest para verificar se as expectativas em cada caso de teste são satisfeitas.
 
-Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
+## Quando todos os casos de teste são concluídos, o Jest exibe o resultado da execução de testes, incluindo quantos testes passaram ou falharam.
 
-Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
+## Se algum caso de teste falhar, o Jest exibe informações sobre a falha, como a mensagem de erro e a saída do console.
 
-Referências
-https://jestjs.io/pt-BR/docs/getting-started
-https://jestjs.io/pt-BR/docs/expect
-https://jestjs.io/pt-BR/docs/mock-function-api
-https://jestjs.io/pt-BR/docs/snapshot-testing
-https://jestjs.io/pt-BR/docs/configuration
-https://jestjs.io/pt-BR/docs/expect
-https://jestjs.io/pt-BR/docs/mock-function-api
-https://jestjs.io/pt-BR/docs/snapshot-testing
-https://jestjs.io/pt-BR/docs/configuration
+## Você pode executar todos os seus testes com um único comando, como jest, ou executar apenas um subconjunto de testes específicos. O Jest também fornece recursos avançados, como testes paralelos, testes em segundo plano e cache de compilação para ajudar a otimizar a velocidade de execução de seus testes.
+
+# Referências
+(https://jestjs.io/pt-BR/docs/getting-started)
+(https://jestjs.io/pt-BR/docs/expect)
+(https://jestjs.io/pt-BR/docs/mock-function-api)
+(https://jestjs.io/pt-BR/docs/snapshot-testing)
+(https://jestjs.io/pt-BR/docs/configuration)
+(https://jestjs.io/pt-BR/docs/expect)
+(https://jestjs.io/pt-BR/docs/mock-function-api)
+(https://jestjs.io/pt-BR/docs/snapshot-testing)
+(https://jestjs.io/pt-BR/docs/configuration)
