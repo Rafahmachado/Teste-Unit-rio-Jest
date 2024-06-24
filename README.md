@@ -35,7 +35,7 @@ Aqui estão alguns exemplos de asserções com Jest usando o método expect:
 
 Verificar se um valor é igual a um determinado valor:
 
-test('should return the correct value', () => {
+''' java script test('should return the correct value', () => {
   const result = 2 + 2;
   expect(result).toBe(4);
 });
