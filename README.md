@@ -1,4 +1,4 @@
-# Teste-Unitário-Jest
+# Teste Unitário Jest
 
 ## O que preciso saber
 Para trabalhar com testes unitários usando Jest, você precisa ter conhecimento básico em JavaScript e compreender os conceitos de testes unitários em geral. Além disso, você precisa saber:
